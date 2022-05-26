@@ -58,12 +58,15 @@ main {
   color: var(--dark-brown);
   box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.2);
 }
-.chart-card > p {
-  color: var(--medium-brown);
+.chart-card > h2 {
+  font-size: 2.4rem;
 }
 .chart-card__chart > div > p,
 .chart-card__info div > p {
   color: var(--medium-brown);
+}
+.chart-card__chart > div > p {
+  cursor: pointer;
 }
 .chart-card__chart {
   display: flex;
@@ -130,6 +133,9 @@ hr {
   }
   .chart-card {
     width: 33rem;
+  }
+  .chart-card > h2 {
+    font-size: 2.6rem;
   }
 }
 @media screen and (min-width: 768px) {

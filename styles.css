@@ -81,6 +81,7 @@ main {
   flex-direction: column;
 }
 .spent {
+  z-index: 1;
   display: none;
   margin-bottom: 0.5rem;
   background-color: var(--dark-brown);
